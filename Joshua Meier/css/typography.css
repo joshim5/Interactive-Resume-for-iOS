@@ -1,0 +1,262 @@
+html    {
+    font-size: 62.5%; 
+}
+
+body    {
+	color: #f1ccc9;
+	font-family: "ProximaNovaRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a  {
+	color: #f27335;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: underline;
+}
+
+h2 a	{
+	color: #4c4c34;
+}
+
+h2 a:hover,
+h2 a:focus  { 
+	color: #76765e;
+}
+
+.giga  {
+    font-size: 26px; 
+    font-size: 2.6rem; 
+    margin: 12px 0;
+}
+
+.mega  {
+	font-family: "Museo", "ProximaNovaRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px; 
+    font-size: 2.4rem; 
+    margin: 12px 0;
+}
+
+.kilo { 
+    font-size: 22px; 
+    font-size: 2.2rem; 
+    margin: 0; 
+}
+  
+h1,
+.alpha  { 
+    font-size: 20px; 
+    font-size: 1.9rem; 
+    margin-bottom: 9px; 
+}
+
+h2,
+.beta { 
+    font-size: 20px; 
+    font-size: 1.9rem; 
+    margin: 48px 0 20px;
+}
+
+h3,
+.gamma	{ 
+    font-size: 18px; 
+    font-size: 1.8rem; 
+    font-weight: normal; 
+    margin-bottom: 3px;  
+}
+
+	{ 
+    font-size: 16px; 
+    font-size: 1.6rem; 
+    font-weight: normal; 
+}
+
+p,
+h4,
+.delta { 
+    font-size: 14px; 
+    font-size: 1.4rem; 
+    margin-bottom: 20px; 
+}
+
+small,
+h5,
+.epsilon   {
+    font-size: 12px; 
+    font-size: 1.2rem; 
+}
+
+strong    {
+		font-family: "ProximaNovaSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.underline  {
+	border-bottom: 1px solid #706a68;
+}
+
+/* ------------------------------------------------------------------------
+ * :: Structure
+ * ---------------------------------------------------------------------- */
+
+.top h1  {
+	font-family: "ProximaNovaRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 21px;
+	font-size: 2.1rem;
+	line-height: 1;
+	text-align: center;
+}
+
+.process h2  {
+	font-family: "Museo", "ProximaNovaRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	text-align: left;
+}
+
+.process p {
+	color: #f1ccc9;
+	text-align: left;
+	line-height: 2.4rem;
+}
+
+#contact article  {
+	text-align: left;
+}
+
+#contact article .mega  {
+	margin-bottom: 25px;
+}
+
+.twitter  {
+	color: #fcff9d;
+}
+
+.dribbble  {
+	color: #fcff9d;
+}
+
+
+/* ------------------------------------------------------------------------
+ * :: Fonts
+ * ---------------------------------------------------------------------- */
+
+
+
+@font-face {
+	font-family: 'MinionPro';
+	src: url('../fonts/minionpro-boldcn-webfont.eot');
+	src: local('â˜º'), url('../fonts/minionpro-boldcn-webfont.woff') format('woff'), url('../fonts/minionpro-boldcn-webfont.ttf') format('truetype'), url('../fonts/minionpro-boldcn-webfont.svg#webfonti50AtNAS') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'BlackJack';
+	src: url('../fonts/black_jack-webfont.eot');
+	src: local('â˜º'), url('../fonts/black_jack-webfont.woff') format('woff'), url('../fonts/black_jack-webfont.ttf') format('truetype'), url('../fonts/black_jack-webfont.svg#webfontfooJoIoN') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'DINSchrift';
+	src: url('../fonts/din_30640_neuzeit_grotesk_bold_condensed-webfont.eot');
+	src: local('â˜º'), url('../fonts/din_30640_neuzeit_grotesk_bold_condensed-webfont.woff') format('woff'), url('../fonts/din_30640_neuzeit_grotesk_bold_condensed-webfont.ttf') format('truetype'), url('../fonts/din_30640_neuzeit_grotesk_bold_condensed-webfont.svg#webfontEaGB2wlZ') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNovaBold';
+    src: url('../fonts/proxima_nova_bold-webfont.eot');
+    src: url('../fonts/proxima_nova_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_bold-webfont.woff') format('woff'),
+         url('../fonts/proxima_nova_bold-webfont.ttf') format('truetype'),
+         url('../fonts/proxima_nova_bold-webfont.svg#ProximaNovaBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ProximaNovaRegular';
+    src: url('../fonts/proxima_nova_reg-webfont.eot');
+    src: url('../fonts/proxima_nova_reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_reg-webfont.woff') format('woff'),
+         url('../fonts/proxima_nova_reg-webfont.ttf') format('truetype'),
+         url('../fonts/proxima_nova_reg-webfont.svg#ProximaNovaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNovaLight';
+    src: url('../fonts/proxima_nova_light-webfont.eot');
+    src: url('../fonts/proxima_nova_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_light-webfont.woff') format('woff'),
+         url('../fonts/proxima_nova_light-webfont.ttf') format('truetype'),
+         url('../fonts/proxima_nova_light-webfont.svg#ProximaNovaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNovaSemiBold';
+    src: url('../fonts/proximanova-semibold-webfont.eot');
+    src: url('../fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-semibold-webfont.woff') format('woff'),
+         url('../fonts/proximanova-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-semibold-webfont.svg#ProximaNovaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/Museo500-Regular.eot');
+    src: url('../fonts/Museo500-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Museo500-Regular.ttf') format('truetype'),
+         url('../fonts/Museo500-Regular.svg#ProximaNovaBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*****TEMPTEMPTEMP*****/
+/* From http://rschlegel.com/styles.css */
+
+@font-face {
+    font-family: 'NexaLight';
+    src:  url('../fonts/NexaLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NexaBold';
+    src:  url('../fonts/NexaBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src:  url('../fonts/OpenSans-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Reg';
+    src:  url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src:  url('../fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -7,18 +7,52 @@
 //
 
 #import "AppDelegate.h"
+#import "LauncherViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    LauncherViewController *launcherViewController = [[LauncherViewController alloc] init];
+   
+    UINavigationController *navCon = [[UINavigationController alloc] initWithRootViewController:launcherViewController];
+
+    self.window.rootViewController = navCon;
     [self.window makeKeyAndVisible];
     return YES;
 }
 
+/*
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    //UIImage *navBarImage = [UIImage imageNamed:@"navbar-normal.png"];
+    //[[UINavigationBar appearance] setBackgroundImage:navBarImage forBarMetrics:UIBarMetricsDefault];
+    //[[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:(51.0/255.0) green:(51.0/255.0) blue:(51.0/255.0) alpha:1]];
+
+    //MediaViewController *educationVC = [[MediaViewController alloc] init];
+    
+    ExperienceHolderViewController *experienceHolderViewController = [[ExperienceHolderViewController alloc] initWithJoshExperience];
+    
+    UIPageViewController *pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
+
+    [[pageViewController view] setFrame:[self.window bounds]];
+    
+    NSArray *viewControllers = [NSArray arrayWithObject:experienceHolderViewController.experienceVC];
+    
+    [pageViewController setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
+    
+    pageViewController.dataSource = experienceHolderViewController;
+    
+    self.window.rootViewController = pageViewController;
+    [self.window makeKeyAndVisible];
+    return YES;
+}
+*/
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

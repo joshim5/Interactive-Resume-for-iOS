@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		034741B718F5FD5000A1CB34 /* ExperienceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034741B518F5FD5000A1CB34 /* ExperienceViewController.m */; };
+		034741B818F5FD5000A1CB34 /* ExperienceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034741B618F5FD5000A1CB34 /* ExperienceViewController.xib */; };
+		034741BA18F5FEC500A1CB34 /* Experience_Canary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 034741B918F5FEC500A1CB34 /* Experience_Canary.jpg */; };
+		034741C018F6107B00A1CB34 /* Projects_Columbia.png in Resources */ = {isa = PBXBuildFile; fileRef = 034741BE18F6107B00A1CB34 /* Projects_Columbia.png */; };
+		034741C118F6107B00A1CB34 /* Experience_RescueTheVoice.png in Resources */ = {isa = PBXBuildFile; fileRef = 034741BF18F6107B00A1CB34 /* Experience_RescueTheVoice.png */; };
+		034741C318F6109100A1CB34 /* Experience_Harvard.png in Resources */ = {isa = PBXBuildFile; fileRef = 034741C218F6109100A1CB34 /* Experience_Harvard.png */; };
+		034741C518F610A700A1CB34 /* Experience_Provita.png in Resources */ = {isa = PBXBuildFile; fileRef = 034741C418F610A700A1CB34 /* Experience_Provita.png */; };
+		034741C718F610BF00A1CB34 /* Experience_Technion.png in Resources */ = {isa = PBXBuildFile; fileRef = 034741C618F610BF00A1CB34 /* Experience_Technion.png */; };
+		034741C918F610F000A1CB34 /* Experience_Apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 034741C818F610F000A1CB34 /* Experience_Apple.jpg */; };
+		034741CC18FC1BF900A1CB34 /* ExperienceHolderPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034741CB18FC1BF900A1CB34 /* ExperienceHolderPageViewController.m */; };
+		034741CE18FC721D00A1CB34 /* Experience_Columbia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 034741CD18FC721D00A1CB34 /* Experience_Columbia.jpg */; };
+		034741D018FC737500A1CB34 /* Experience_BCA.png in Resources */ = {isa = PBXBuildFile; fileRef = 034741CF18FC737500A1CB34 /* Experience_BCA.png */; };
 		0370CCCE18F5BC5F000B3EE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0370CCCD18F5BC5F000B3EE6 /* Foundation.framework */; };
 		0370CCD018F5BC5F000B3EE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0370CCCF18F5BC5F000B3EE6 /* CoreGraphics.framework */; };
 		0370CCD218F5BC5F000B3EE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0370CCD118F5BC5F000B3EE6 /* UIKit.framework */; };
@@ -19,6 +31,31 @@
 		0370CCE918F5BC60000B3EE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0370CCD118F5BC5F000B3EE6 /* UIKit.framework */; };
 		0370CCF118F5BC60000B3EE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0370CCEF18F5BC60000B3EE6 /* InfoPlist.strings */; };
 		0370CCF318F5BC60000B3EE6 /* Joshua_MeierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0370CCF218F5BC60000B3EE6 /* Joshua_MeierTests.m */; };
+		0370CCFE18F5BF5F000B3EE6 /* EducationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0370CCFD18F5BF5F000B3EE6 /* EducationViewController.m */; };
+		0370CD0118F5C1DC000B3EE6 /* navbar-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0370CD0018F5C1DC000B3EE6 /* navbar-normal.png */; };
+		0370CD0418F5E785000B3EE6 /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0370CD0318F5E785000B3EE6 /* MediaViewController.m */; };
+		0370CD0C18F5EA30000B3EE6 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 0370CD0718F5EA30000B3EE6 /* css */; };
+		0370CD0D18F5EA30000B3EE6 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 0370CD0818F5EA30000B3EE6 /* fonts */; };
+		0370CD0E18F5EA30000B3EE6 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 0370CD0918F5EA30000B3EE6 /* images */; };
+		0370CD0F18F5EA30000B3EE6 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 0370CD0A18F5EA30000B3EE6 /* js */; };
+		0370CD1018F5EA30000B3EE6 /* media.html in Resources */ = {isa = PBXBuildFile; fileRef = 0370CD0B18F5EA30000B3EE6 /* media.html */; };
+		03726F5B18FCA13C00166CC6 /* awards.html in Resources */ = {isa = PBXBuildFile; fileRef = 03726F5A18FCA13C00166CC6 /* awards.html */; };
+		03726F5D18FCAC2D00166CC6 /* portfolio in Resources */ = {isa = PBXBuildFile; fileRef = 03726F5C18FCAC2D00166CC6 /* portfolio */; };
+		03726F5F18FCACA900166CC6 /* Siemens-Winner.png in Resources */ = {isa = PBXBuildFile; fileRef = 03726F5E18FCACA900166CC6 /* Siemens-Winner.png */; };
+		03E93A5518FC86680003A9D5 /* Projects_TEDxRedmond.png in Resources */ = {isa = PBXBuildFile; fileRef = 03E93A5418FC86680003A9D5 /* Projects_TEDxRedmond.png */; };
+		03E93A5718FC874D0003A9D5 /* Projects_iWillNotProcrastinate.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 03E93A5618FC874D0003A9D5 /* Projects_iWillNotProcrastinate.jpeg */; };
+		03E93A5918FC875A0003A9D5 /* Projects_JewishTreats.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 03E93A5818FC875A0003A9D5 /* Projects_JewishTreats.jpeg */; };
+		03E93A5B18FC87640003A9D5 /* Projects_MishnehTorah.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 03E93A5A18FC87640003A9D5 /* Projects_MishnehTorah.jpeg */; };
+		03E93A5D18FC87A80003A9D5 /* Projects_Selichot.png in Resources */ = {isa = PBXBuildFile; fileRef = 03E93A5C18FC87A80003A9D5 /* Projects_Selichot.png */; };
+		03E93A6118FC89420003A9D5 /* LauncherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E93A5F18FC89420003A9D5 /* LauncherViewController.m */; };
+		03E93A6218FC89420003A9D5 /* LauncherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E93A6018FC89420003A9D5 /* LauncherViewController.xib */; };
+		03E93A6418FC8BDE0003A9D5 /* go-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 03E93A6318FC8BDE0003A9D5 /* go-button.png */; };
+		03E93A6618FC95AD0003A9D5 /* mypic.png in Resources */ = {isa = PBXBuildFile; fileRef = 03E93A6518FC95AD0003A9D5 /* mypic.png */; };
+		03E93A6818FC95BD0003A9D5 /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 03E93A6718FC95BD0003A9D5 /* background.jpeg */; };
+		03E93A6C18FC99C80003A9D5 /* NewEducationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E93A6A18FC99C80003A9D5 /* NewEducationViewController.m */; };
+		03E93A6D18FC99C80003A9D5 /* NewEducationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E93A6B18FC99C80003A9D5 /* NewEducationViewController.xib */; };
+		03E93A6F18FC9BD30003A9D5 /* mit_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03E93A6E18FC9BD30003A9D5 /* mit_logo.jpg */; };
+		03E93A7118FC9BD60003A9D5 /* harvard_shield_wreath.png in Resources */ = {isa = PBXBuildFile; fileRef = 03E93A7018FC9BD60003A9D5 /* harvard_shield_wreath.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +69,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		034741B418F5FD5000A1CB34 /* ExperienceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExperienceViewController.h; sourceTree = "<group>"; };
+		034741B518F5FD5000A1CB34 /* ExperienceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExperienceViewController.m; sourceTree = "<group>"; };
+		034741B618F5FD5000A1CB34 /* ExperienceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExperienceViewController.xib; sourceTree = "<group>"; };
+		034741B918F5FEC500A1CB34 /* Experience_Canary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Experience_Canary.jpg; sourceTree = "<group>"; };
+		034741BE18F6107B00A1CB34 /* Projects_Columbia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Projects_Columbia.png; sourceTree = "<group>"; };
+		034741BF18F6107B00A1CB34 /* Experience_RescueTheVoice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Experience_RescueTheVoice.png; sourceTree = "<group>"; };
+		034741C218F6109100A1CB34 /* Experience_Harvard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Experience_Harvard.png; path = images/portfolio/Experience_Harvard.png; sourceTree = "<group>"; };
+		034741C418F610A700A1CB34 /* Experience_Provita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Experience_Provita.png; path = images/portfolio/Experience_Provita.png; sourceTree = "<group>"; };
+		034741C618F610BF00A1CB34 /* Experience_Technion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Experience_Technion.png; path = images/portfolio/Experience_Technion.png; sourceTree = "<group>"; };
+		034741C818F610F000A1CB34 /* Experience_Apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Experience_Apple.jpg; sourceTree = "<group>"; };
+		034741CA18FC1BF900A1CB34 /* ExperienceHolderPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExperienceHolderPageViewController.h; sourceTree = "<group>"; };
+		034741CB18FC1BF900A1CB34 /* ExperienceHolderPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExperienceHolderPageViewController.m; sourceTree = "<group>"; };
+		034741CD18FC721D00A1CB34 /* Experience_Columbia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Experience_Columbia.jpg; sourceTree = "<group>"; };
+		034741CF18FC737500A1CB34 /* Experience_BCA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Experience_BCA.png; sourceTree = "<group>"; };
 		0370CCCA18F5BC5F000B3EE6 /* Joshua Meier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Joshua Meier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0370CCCD18F5BC5F000B3EE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0370CCCF18F5BC5F000B3EE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +99,35 @@
 		0370CCEE18F5BC60000B3EE6 /* Joshua MeierTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Joshua MeierTests-Info.plist"; sourceTree = "<group>"; };
 		0370CCF018F5BC60000B3EE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0370CCF218F5BC60000B3EE6 /* Joshua_MeierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Joshua_MeierTests.m; sourceTree = "<group>"; };
+		0370CCFC18F5BF5F000B3EE6 /* EducationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EducationViewController.h; sourceTree = "<group>"; };
+		0370CCFD18F5BF5F000B3EE6 /* EducationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EducationViewController.m; sourceTree = "<group>"; };
+		0370CD0018F5C1DC000B3EE6 /* navbar-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar-normal.png"; sourceTree = "<group>"; };
+		0370CD0218F5E785000B3EE6 /* MediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaViewController.h; sourceTree = "<group>"; };
+		0370CD0318F5E785000B3EE6 /* MediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaViewController.m; sourceTree = "<group>"; };
+		0370CD0718F5EA30000B3EE6 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		0370CD0818F5EA30000B3EE6 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		0370CD0918F5EA30000B3EE6 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		0370CD0A18F5EA30000B3EE6 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		0370CD0B18F5EA30000B3EE6 /* media.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = media.html; sourceTree = "<group>"; };
+		03726F5A18FCA13C00166CC6 /* awards.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = awards.html; sourceTree = "<group>"; };
+		03726F5C18FCAC2D00166CC6 /* portfolio */ = {isa = PBXFileReference; lastKnownFileType = folder; name = portfolio; path = "Joshua Meier/images/portfolio"; sourceTree = "<group>"; };
+		03726F5E18FCACA900166CC6 /* Siemens-Winner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Siemens-Winner.png"; path = "images/portfolio/Siemens-Winner.png"; sourceTree = "<group>"; };
+		03E93A5418FC86680003A9D5 /* Projects_TEDxRedmond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Projects_TEDxRedmond.png; path = images/portfolio/Projects_TEDxRedmond.png; sourceTree = "<group>"; };
+		03E93A5618FC874D0003A9D5 /* Projects_iWillNotProcrastinate.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Projects_iWillNotProcrastinate.jpeg; sourceTree = "<group>"; };
+		03E93A5818FC875A0003A9D5 /* Projects_JewishTreats.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Projects_JewishTreats.jpeg; sourceTree = "<group>"; };
+		03E93A5A18FC87640003A9D5 /* Projects_MishnehTorah.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Projects_MishnehTorah.jpeg; sourceTree = "<group>"; };
+		03E93A5C18FC87A80003A9D5 /* Projects_Selichot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Projects_Selichot.png; sourceTree = "<group>"; };
+		03E93A5E18FC89420003A9D5 /* LauncherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LauncherViewController.h; sourceTree = "<group>"; };
+		03E93A5F18FC89420003A9D5 /* LauncherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LauncherViewController.m; sourceTree = "<group>"; };
+		03E93A6018FC89420003A9D5 /* LauncherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LauncherViewController.xib; sourceTree = "<group>"; };
+		03E93A6318FC8BDE0003A9D5 /* go-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go-button.png"; sourceTree = "<group>"; };
+		03E93A6518FC95AD0003A9D5 /* mypic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mypic.png; path = "Joshua Meier/images/Footer/mypic.png"; sourceTree = "<group>"; };
+		03E93A6718FC95BD0003A9D5 /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpeg; path = "Joshua Meier/images/background.jpeg"; sourceTree = "<group>"; };
+		03E93A6918FC99C80003A9D5 /* NewEducationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewEducationViewController.h; sourceTree = "<group>"; };
+		03E93A6A18FC99C80003A9D5 /* NewEducationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewEducationViewController.m; sourceTree = "<group>"; };
+		03E93A6B18FC99C80003A9D5 /* NewEducationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewEducationViewController.xib; sourceTree = "<group>"; };
+		03E93A6E18FC9BD30003A9D5 /* mit_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mit_logo.jpg; sourceTree = "<group>"; };
+		03E93A7018FC9BD60003A9D5 /* harvard_shield_wreath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = harvard_shield_wreath.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +157,9 @@
 		0370CCC118F5BC5F000B3EE6 = {
 			isa = PBXGroup;
 			children = (
+				03726F5C18FCAC2D00166CC6 /* portfolio */,
+				03E93A6718FC95BD0003A9D5 /* background.jpeg */,
+				03E93A6518FC95AD0003A9D5 /* mypic.png */,
 				0370CCD318F5BC5F000B3EE6 /* Joshua Meier */,
 				0370CCEC18F5BC60000B3EE6 /* Joshua MeierTests */,
 				0370CCCC18F5BC5F000B3EE6 /* Frameworks */,
@@ -107,8 +190,24 @@
 		0370CCD318F5BC5F000B3EE6 /* Joshua Meier */ = {
 			isa = PBXGroup;
 			children = (
+				0370CD0518F5EA1F000B3EE6 /* HTML */,
 				0370CCDC18F5BC60000B3EE6 /* AppDelegate.h */,
 				0370CCDD18F5BC60000B3EE6 /* AppDelegate.m */,
+				0370CCFC18F5BF5F000B3EE6 /* EducationViewController.h */,
+				0370CCFD18F5BF5F000B3EE6 /* EducationViewController.m */,
+				03E93A6918FC99C80003A9D5 /* NewEducationViewController.h */,
+				03E93A6A18FC99C80003A9D5 /* NewEducationViewController.m */,
+				03E93A6B18FC99C80003A9D5 /* NewEducationViewController.xib */,
+				0370CD0218F5E785000B3EE6 /* MediaViewController.h */,
+				0370CD0318F5E785000B3EE6 /* MediaViewController.m */,
+				034741B418F5FD5000A1CB34 /* ExperienceViewController.h */,
+				034741B518F5FD5000A1CB34 /* ExperienceViewController.m */,
+				034741B618F5FD5000A1CB34 /* ExperienceViewController.xib */,
+				034741CA18FC1BF900A1CB34 /* ExperienceHolderPageViewController.h */,
+				034741CB18FC1BF900A1CB34 /* ExperienceHolderPageViewController.m */,
+				03E93A5E18FC89420003A9D5 /* LauncherViewController.h */,
+				03E93A5F18FC89420003A9D5 /* LauncherViewController.m */,
+				03E93A6018FC89420003A9D5 /* LauncherViewController.xib */,
 				0370CCDF18F5BC60000B3EE6 /* Images.xcassets */,
 				0370CCD418F5BC5F000B3EE6 /* Supporting Files */,
 			);
@@ -118,6 +217,17 @@
 		0370CCD418F5BC5F000B3EE6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				03726F5E18FCACA900166CC6 /* Siemens-Winner.png */,
+				03E93A7018FC9BD60003A9D5 /* harvard_shield_wreath.png */,
+				03E93A6E18FC9BD30003A9D5 /* mit_logo.jpg */,
+				03E93A6318FC8BDE0003A9D5 /* go-button.png */,
+				03E93A5C18FC87A80003A9D5 /* Projects_Selichot.png */,
+				03E93A5A18FC87640003A9D5 /* Projects_MishnehTorah.jpeg */,
+				03E93A5818FC875A0003A9D5 /* Projects_JewishTreats.jpeg */,
+				03E93A5618FC874D0003A9D5 /* Projects_iWillNotProcrastinate.jpeg */,
+				03E93A5418FC86680003A9D5 /* Projects_TEDxRedmond.png */,
+				034741BE18F6107B00A1CB34 /* Projects_Columbia.png */,
+				0370CCFF18F5C1D4000B3EE6 /* Images */,
 				0370CCD518F5BC5F000B3EE6 /* Joshua Meier-Info.plist */,
 				0370CCD618F5BC5F000B3EE6 /* InfoPlist.strings */,
 				0370CCD918F5BC5F000B3EE6 /* main.m */,
@@ -142,6 +252,43 @@
 				0370CCEF18F5BC60000B3EE6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0370CCFF18F5C1D4000B3EE6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				034741CF18FC737500A1CB34 /* Experience_BCA.png */,
+				034741C818F610F000A1CB34 /* Experience_Apple.jpg */,
+				034741C618F610BF00A1CB34 /* Experience_Technion.png */,
+				034741C418F610A700A1CB34 /* Experience_Provita.png */,
+				034741C218F6109100A1CB34 /* Experience_Harvard.png */,
+				034741CD18FC721D00A1CB34 /* Experience_Columbia.jpg */,
+				034741BF18F6107B00A1CB34 /* Experience_RescueTheVoice.png */,
+				034741B918F5FEC500A1CB34 /* Experience_Canary.jpg */,
+				0370CD0018F5C1DC000B3EE6 /* navbar-normal.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		0370CD0518F5EA1F000B3EE6 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				0370CD0618F5EA28000B3EE6 /* Media */,
+			);
+			name = HTML;
+			sourceTree = "<group>";
+		};
+		0370CD0618F5EA28000B3EE6 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				0370CD0718F5EA30000B3EE6 /* css */,
+				0370CD0818F5EA30000B3EE6 /* fonts */,
+				0370CD0918F5EA30000B3EE6 /* images */,
+				0370CD0A18F5EA30000B3EE6 /* js */,
+				0370CD0B18F5EA30000B3EE6 /* media.html */,
+				03726F5A18FCA13C00166CC6 /* awards.html */,
+			);
+			name = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +366,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03726F5D18FCAC2D00166CC6 /* portfolio in Resources */,
+				03E93A6818FC95BD0003A9D5 /* background.jpeg in Resources */,
+				03E93A6618FC95AD0003A9D5 /* mypic.png in Resources */,
+				0370CD0E18F5EA30000B3EE6 /* images in Resources */,
+				034741C018F6107B00A1CB34 /* Projects_Columbia.png in Resources */,
+				034741C518F610A700A1CB34 /* Experience_Provita.png in Resources */,
+				03E93A6418FC8BDE0003A9D5 /* go-button.png in Resources */,
+				0370CD0C18F5EA30000B3EE6 /* css in Resources */,
+				03E93A5D18FC87A80003A9D5 /* Projects_Selichot.png in Resources */,
+				0370CD0D18F5EA30000B3EE6 /* fonts in Resources */,
+				034741C118F6107B00A1CB34 /* Experience_RescueTheVoice.png in Resources */,
+				034741CE18FC721D00A1CB34 /* Experience_Columbia.jpg in Resources */,
+				034741BA18F5FEC500A1CB34 /* Experience_Canary.jpg in Resources */,
+				03E93A7118FC9BD60003A9D5 /* harvard_shield_wreath.png in Resources */,
+				03E93A5518FC86680003A9D5 /* Projects_TEDxRedmond.png in Resources */,
+				0370CD0F18F5EA30000B3EE6 /* js in Resources */,
+				0370CD0118F5C1DC000B3EE6 /* navbar-normal.png in Resources */,
+				0370CD1018F5EA30000B3EE6 /* media.html in Resources */,
+				03E93A6D18FC99C80003A9D5 /* NewEducationViewController.xib in Resources */,
+				03E93A5B18FC87640003A9D5 /* Projects_MishnehTorah.jpeg in Resources */,
+				03E93A6F18FC9BD30003A9D5 /* mit_logo.jpg in Resources */,
 				0370CCD818F5BC5F000B3EE6 /* InfoPlist.strings in Resources */,
+				034741C718F610BF00A1CB34 /* Experience_Technion.png in Resources */,
+				03E93A5718FC874D0003A9D5 /* Projects_iWillNotProcrastinate.jpeg in Resources */,
+				034741C318F6109100A1CB34 /* Experience_Harvard.png in Resources */,
+				034741D018FC737500A1CB34 /* Experience_BCA.png in Resources */,
+				03726F5B18FCA13C00166CC6 /* awards.html in Resources */,
+				034741B818F5FD5000A1CB34 /* ExperienceViewController.xib in Resources */,
+				03E93A6218FC89420003A9D5 /* LauncherViewController.xib in Resources */,
+				03726F5F18FCACA900166CC6 /* Siemens-Winner.png in Resources */,
 				0370CCE018F5BC60000B3EE6 /* Images.xcassets in Resources */,
+				03E93A5918FC875A0003A9D5 /* Projects_JewishTreats.jpeg in Resources */,
+				034741C918F610F000A1CB34 /* Experience_Apple.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +419,12 @@
 			files = (
 				0370CCDE18F5BC60000B3EE6 /* AppDelegate.m in Sources */,
 				0370CCDA18F5BC60000B3EE6 /* main.m in Sources */,
+				0370CCFE18F5BF5F000B3EE6 /* EducationViewController.m in Sources */,
+				0370CD0418F5E785000B3EE6 /* MediaViewController.m in Sources */,
+				03E93A6C18FC99C80003A9D5 /* NewEducationViewController.m in Sources */,
+				03E93A6118FC89420003A9D5 /* LauncherViewController.m in Sources */,
+				034741B718F5FD5000A1CB34 /* ExperienceViewController.m in Sources */,
+				034741CC18FC1BF900A1CB34 /* ExperienceHolderPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +544,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Joshua Meier/Joshua Meier-Prefix.pch";
 				INFOPLIST_FILE = "Joshua Meier/Joshua Meier-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -373,6 +558,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Joshua Meier/Joshua Meier-Prefix.pch";
 				INFOPLIST_FILE = "Joshua Meier/Joshua Meier-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -437,6 +623,7 @@
 				0370CCF818F5BC60000B3EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0370CCF918F5BC60000B3EE6 /* Build configuration list for PBXNativeTarget "Joshua MeierTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +632,7 @@
 				0370CCFB18F5BC60000B3EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

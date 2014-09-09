@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/typography.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/global.css">
+	
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/fancybox.js"></script>
+	<script src="js/script.js"></script> 
+	
+	<script type="text/javascript">
+	
+	$(document).scroll(function() {
+		var scrollTop = $(this).scrollTop();
+		$(".overlay_content").each(function() {
+			var topDistance = $(this).offset().top;
+			if(topDistance-120< scrollTop) {
+				$(this).css("opacity", "1");
+			} else {
+				$(this).css("opacity", "0");
+			}
+		})
+	})
+	</script>
+	
+</head>
+<body>
+    <div class="top">
+        <section>
+            <div class="row">
+                <h1><span>A recent third place winner ($40,000 prize) in the Intel Science Talent Search, I have listed selected awards below.</span></h1>
+            </div>
+        </section>
+    </div>
+    <div class="clear"></div>
+
+		<div class="portfolio_content">
+				<section id="portfolio" class="full-width">
+					<div class="row">
+                        <article class="one column">
+                            <img src="images/portfolio/usaco-top12.png" alt="">
+                                <div class="overlay"></div>
+                                <div class="overlay_content">
+                                    <h3>USA Computing Olympiad</h3>
+                                    <p>Compete in monthly olympiads testing algorithmic and programming skills. Gold Division Qualifier and Top 12 High School Juniors Nationwide, 2012-2013.</p>
+                                    <a class="button" href="http://usaco.org/index.php?page=open13results">View Winners</a>
+                                    </div>
+                                    </article>
+                                    
+                                    <article class="one column">
+                                    <img src="images/portfolio/GSF-Finalist.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="overlay_content">
+                                    <h3>Google Science Fair</h3>
+                                    <p>Finalist in the 2012 Google Science Fair for project, The Missing Genome: Mitochondrial DNA Deletions in Stem Cells.</p>
+                                    <a class="button" href="https://sites.google.com/a/googlesciencefair.com/science-fair-2012-project-ahjzfnnjawvuy2vmywlyltiwmtjydwssb1byb2ply3qykr0hda/home">View Award</a>
+                                    </div>
+                                    </article>
+                                    
+                                    <article class="one column">
+                                    <img src="images/portfolio/Siemens-Winner.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="overlay_content">
+                                    <h3>Siemens Competition</h3>
+                                    <p>One of six National Finalists in the Siemens Competition and regional winner at MIT. One MIT judge said, "Joshua's work provides a potential solution..."</p>
+                                    <a class="button" href="http://www.northjersey.com/news/231255701_Teaneck_17-year-old_wins_major_science_prize_to_award-winning_senior.html">View Article</a>
+                                    </div>
+                                    </article>
+                                    
+                                    <article class="one column">
+                                    <img src="images/portfolio/Intel_ISEF-2ndPlace.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="overlay_content">
+                                    <h3>Intel International Science and Engineering Fair</h3>
+                                    <p>Second place, Cellular and Molecular Biology, Intel International Science and Engineering Fair 2012.</p>
+                                    <a class="button" href="http://www.youtube.com/watch?v=r5DqI0unvRU">View Award</a>
+                                    </div>
+                                    </article>
+                                    
+                                    
+                                    
+                                    <article class="one column">
+                                    <img src="images/portfolio/JewishStandard-BibleExpert.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="overlay_content">
+                                    <h3>First Place: USA National Bible Contest</h3>
+                                    <p>In 2009, I placed first in the USA in the National Bible Contest. "This year's contest was harder."</p>
+                                    <a class="button" href="https://docs.google.com/file/d/0B21VM2VXnKQjbENNVG96czlCQXc/edit">View Article</a>
+                                    </div>
+                                    </article>
+                                    
+                                    <article class="one column">
+                                    <img src="images/portfolio/JewishStandard-AVictoryOfBiblicalProportions.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="overlay_content">
+                                    <h3>First Place: International Jerusalem Contest</h3>
+                                    <p>In 2007, I placed first in the world in the International Jerusalem Contest, a Middle Eastern history competition.</p>
+                                    <a class="button" href="http://www.jstandard.com/index.php/content/item/2647/">View Article</a>
+                                    </div>
+                                    </article>
+                                    
+                                    <article class="one column">
+                                    <img src="images/portfolio/JewishStandard-ScoreAsBibleScholar.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="overlay_content">
+                                    <h3>Sixth Place: International Bible Contest</h3>
+                                    <p>In 2010, I placed sixth in the world in the International Bible Contest, assessing knowledge on over 400 chapters of material.</p>
+                                    <a class="button" href="http://www.jstandard.com/index.php/content/item/local_youths_score_as_bible_scholars1/">View Article</a>
+                                    </div>
+                                    </article>
+							<br><br><br><br><br><br><br><br><br><br><br><br>
+							
+					</section>
+			</div>
+		</body>
+	</html>		

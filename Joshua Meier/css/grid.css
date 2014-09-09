@@ -1,0 +1,73 @@
+/* ------------------------------------------------------------------------
+ * This stylesheet is based upon the Toast grid framework by Dan Eden
+ * Any other credit due will be commented inline and/or in humans.txt
+ *
+ * Date: 2012.03.05
+ * ---------------------------------------------------------------------- */
+ /*
+Column container
+*/
+
+*  {
+  -webkit-box-sizing: border-box; /* Allow padding & borders on grids without breaking. IE8+ */
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.row {
+	width: auto;
+  max-width: 940px;
+  margin: 0 auto;
+  list-style: none;
+  /* So we can make rows out of lists. */
+
+  overflow: hidden;
+  /* Clear the floats */
+
+}
+
+.row .column,
+.row .columns {
+    display: inline-block;
+		margin-left: 6.9%;
+    vertical-align: top;
+}
+
+.row > .columns:first-child,
+.row > .column:first-child {
+  margin: 0;   
+}
+
+.one.column {
+  width: 28%;
+}
+.two.columns {
+  width: 62.9%;
+}
+.three.columns {
+  width: 97.8%;
+}
+
+.two.columns .half.column  {
+	width: 46%;
+}
+
+img  {
+	width: auto;
+	max-width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .row {
+    margin: 0;
+    width: auto;
+  }
+  .row .column,
+  .row .columns {
+    display: block;
+    width: auto;
+    margin: 0;
+  }
+}

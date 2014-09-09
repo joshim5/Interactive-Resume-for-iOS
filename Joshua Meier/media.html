@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/typography.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/global.css">
+	
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/fancybox.js"></script>
+	<script src="js/script.js"></script> 
+	
+	<script type="text/javascript">
+	
+	$(document).scroll(function() {
+		var scrollTop = $(this).scrollTop();
+		$(".overlay_content").each(function() {
+			var topDistance = $(this).offset().top;
+			if(topDistance-120< scrollTop) {
+				$(this).css("opacity", "1");
+			} else {
+				$(this).css("opacity", "0");
+			}
+		})
+	})
+	</script>
+	
+</head>
+<body>
+    <div class="top">
+        <section>
+            <div class="row">
+                <h1><span>Around the world, my work has been featured in leading publications.</span></h1>
+            </div>
+        </section>
+    </div>
+    <div class="clear"></div>
+
+		<div class="portfolio_content">
+				<section id="portfolio" class="full-width">
+					<div class="row">
+						<article class="one column">
+							<img src="images/portfolio/TheJewishWeek-TopAppsOf2011_4.png" alt="">
+							<div class="overlay"></div>
+							<div class="overlay_content">
+								<h3>Top Jewish Applications</h3>
+								<p>Mishneh Torah for iOS Featured in "The Top Jewish Applications of 2011 and a Look to the Future"</p>
+								<a class="button" href="http://www.thejewishweek.com/special_sections/south_florida_culture/when_it_comes_technology_hold_your_app">View Article</a>
+							</div>
+						</article>
+						
+						<article class="one column">
+							<img src="images/portfolio/JewishVoice-16YearOldRepackages_2.png" alt="">
+							<div class="overlay"></div>
+							<div class="overlay_content">
+								<h3>Jewish Voice and Opinion</h3>
+								<p>"Just recently, in a breath-taking sign of the times, a 16-year-old Teaneck resident repackaged [the Mishneh Torah] into a beautifully designed iPhone and iPad app."</p>
+								<a class="button" href="https://docs.google.com/file/d/0B21VM2VXnKQjeC1iTHdTV2UyNmc/edit">View Article</a>
+							</div>
+						</article>		
+
+						<article class="one column">
+							<img src="images/portfolio/AllJewishDigital-MishnehTorahReview_2.png" alt="">
+							<div class="overlay"></div>
+							<div class="overlay_content">
+								<h3>All Jewish Digital</h3>
+								<p>"The Mishneh Torah app is perfect for personal, group, or classroom study. The beautifully designed interface makes this digital version a pleasure to read."</p>
+								<a class="button" href="http://www.jewishicommunity.com/mobile-apps/iphoneipad/talmud-mishnah/rambams-mishneh-torah#.UJAWuWl26JU">View Article</a>
+							</div>
+						</article>
+
+						<article class="one column">
+							<img src="images/portfolio/Jewish_iCommunity-MishnehTorah_2.png" alt="">
+							<div class="overlay"></div>
+							<div class="overlay_content">
+								<h3>Jewish iCommunity</h3>
+								<p>"Mishneh Torah for iOS is the newest app of this kind in the App Store, created by Joshua Meier." This app leads in contrast to the competition.</p>
+								<a class="button" href="http://www.jewishicommunity.com/news/mishneh-torah-for-your-smartphone#.UJAWXWl26JU">View Article</a>
+							</div>
+						</article>
+
+						<div class="row">
+							<article class="one column">
+								<img src="images/portfolio/Scientific_American.png" alt="">
+								<div class="overlay"></div>
+								<div class="overlay_content">
+									<h3>Scientific American</h3>
+									<p>"Provita, a company staffed entirely by kids under 18, is working on a project to use mosquitoes to help carry important vaccines."</p>
+									<a class="button" href="http://www.joshuameier.me/press/Scientific_American.pdf">View Article</a>
+								</div>
+							</article>
+
+							<article class="one column">
+								<img src="images/portfolio/TheRecord-TeaneckResidentIsGoogleFinalist.png" alt="">
+								<div class="overlay"></div>
+								<div class="overlay_content">
+									<h3>The Record</h3>
+									<p>"Meier's project attempted to discover why artificially generated stem cells cannot be used in medical research."</p>
+									<a class="button" href="http://www.northjersey.com/news/157542955_Meier_s_stem_cell_project_earns_recognition.html">View Article</a>
+								</div>
+							</article>
+							
+							<article class="one column">
+								<img src="images/portfolio/Fast-Company.png" alt="">
+								<div class="overlay"></div>
+								<div class="overlay_content">
+									<h3>Fast Company</h3>
+									<p>7 Kids Changing Science for the better: "These kids are making huge advancements in their fields, despite the fact that they aren’t even old enough to vote."</p>
+									<a class="button" href="http://www.fastcoexist.com/1681482/7-kids-changing-science-for-the-better#3">View Article</a>
+								</div>
+							</article>
+							
+							<article class="one column">
+								<img src="images/portfolio/YeshivaSanity-BergenAcademiesStudentExcelsInTorahAndScience.png" alt="">
+								<div class="overlay"></div>
+								<div class="overlay_content">
+									<h3>Yeshiva Sanity</h3>
+									<p>Bergen Academies Student Excels in Torah and Science: "He studies...but it seems to be paying off."</p>
+									<a class="button" href="http://yeshivasanity.blogspot.com/2012/06/bergen-academies-student-excels-in.html">View Article</a>
+								</div>
+							</article>
+							
+							<article class="one column">
+								<img src="images/portfolio/NJABR-CyW.png" alt="">
+								<div class="overlay"></div>
+								<div class="overlay_content">
+									<h3>Curious Young Writers</h3>
+									<p>Published author as a Curious Young Writer by the New Jersey Association of Biomedical Research, 2012</p>
+									<a class="button" href="http://www.curiousyoungwriters.org/2013/05/25/fly-genes-of-the-past-the-future-of-cancer-research/">View Publication</a>
+								</div>
+							</article>
+							
+							<article class="one column">
+								<img src="images/portfolio/AOL-Video.png" alt="">
+								<div class="overlay"></div>
+								<div class="overlay_content">
+									<h3>AOL Video</h3>
+									<p>AOL On Tech by GeoBeats did a video feature on "Teen Inventors Want Mosquitoes to Carry Vaccines".</p>
+									<a class="button" href="http://on.aol.com/video/teen-inventors-want-mosquitoes-to-carry-vaccines-517679356">View Video</a>
+								</div>
+							</article>
+
+							<article class="one column">
+								<img src="images/portfolio/Israel-Channel-10.png" alt="">
+								<div class="overlay"></div>
+								<div class="overlay_content">
+									<h3>Israel - National TV</h3>
+									<p>My uncle was lying in bed, watching the nightly news. Suddenly his nephew appears on the screen. "16 year-old Joshua Meier from the USA..."</p>
+									<a class="button" href="http://www.youtube.com/watch?v=NJ12TBzgkOo">View Video</a>
+								</div>
+							</article>	
+
+							<article class="one column">
+								<img src="images/portfolio/Stanford-Scope.png" alt="">
+								<div class="overlay"></div>
+								<div class="overlay_content">
+									<h3>Stanford Medicine</h3>
+									<p>"The full story reminded me of the innovative projects from the program at Stanford, where high-school students spend the summer conducting research."</p>
+									<a class="button" href="https://docs.google.com/file/d/0B21VM2VXnKQjQ3Q4SkUtMlk3SFE/edit">View Article</a>
+								</div>
+							</article>		
+
+							<article class="one column">
+								<img src="images/portfolio/Patch-MeierIsGoogleFinalist.png" alt="">
+								<div class="overlay"></div>
+								<div class="overlay_content">
+									<h3>Patch</h3>
+									<p>"Teaneck's Joshua Meier is a Google Science Fair Finalist...and also took second place in the Intel International Science Fair."</p>
+									<a class="button" href="http://teaneck.patch.com/articles/teaneck-s-joshua-meier-is-google-science-fair-finalist-video">View Article</a>
+								</div>
+							</article>
+
+							<article class="one column">
+								<img src="images/portfolio/JewishVoice-JoshuaMeier'sChidonHaTanachAddress.png" alt="">
+								<div class="overlay"></div>
+								<div class="overlay_content">
+									<h3>Joshua Meier’s Address to Future Scholars</h3>
+									<p>In May 2011, I was invited to speak of my experiences at the National finals of the Bible Contest.</p>
+									<a class="button" href="https://docs.google.com/file/d/1N3zHmQ15LqnrvJqmOzeI-oLby7pstujZFIAlNzd9SGsv2kuCNfj70mYWiLaM3_HpkkY-501J7e4hqKXp/edit">View Article</a>
+								</div>
+							</article>
+							<br><br><br><br><br><br><br><br><br><br><br><br>
+							
+					</section>
+			</div>
+		</body>
+	</html>		
